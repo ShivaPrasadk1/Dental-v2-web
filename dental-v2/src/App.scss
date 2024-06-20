@@ -1,0 +1,314 @@
+.Header-container {
+    margin: -1%;
+
+
+    .Heading-wrapper {
+        box-shadow: 0px -20px 40px 0px #FFFFFF99;
+        border-radius: 0px 0px 100px 100px;
+        margin: 0%;
+
+        .header-comment {
+            padding: 3%;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+.main-container {
+    // background: url(./assets/landing-page/background.svg) no-repeat center center fixed;
+    // background-color: black;
+    padding: 1%;
+}
+
+
+
+footer {
+    color: #fff;
+    padding: 40px 0;
+
+    .footer-container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .footer-left,
+        .footer-middle,
+        .footer-right {
+            flex-basis: 15%;
+        }
+
+
+        h4 {
+            color: #FFFFFF;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin-bottom: 5px;
+
+                a {
+                    color: #FFFFFF80;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    text-align: left;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .social-icons {
+            margin-top: 10px;
+
+            a {
+                color: #fff;
+                font-size: 20px;
+                margin-right: 10px;
+
+                &:hover {
+                    color: #ccc;
+                }
+            }
+        }
+    }
+}
+
+.dashboard-wrapper {
+    margin: 5%;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+
+    .dashboard-body-container {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        cursor: pointer;
+
+        .feature-container {
+            position: relative;
+            width: 218px;
+
+            h1 {
+                display: block;
+                color: white;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 31px;
+                text-align: center;
+
+            }
+        }
+    }
+
+    h2 {
+        color: #FFFFFF;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 31px;
+        text-align: center;
+        opacity: 50%;
+    }
+
+    .submit-file {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.cancel-button {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.file-uploader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 50px;
+
+    .upload-icon {
+        color: #555;
+    }
+
+    .upload-text {
+        h3 {
+            color: #AAB4D0;
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        span {
+            font-size: 15px;
+            font-weight: 400;
+        }
+    }
+
+
+}
+
+.background-warpper {
+    border-Radius: 10px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+    width: 1000px !important;
+    max-width: 1000px !important;
+    padding: 3%;
+    box-shadow: 0px 2px 2px 0px #525154 inset;
+    background: linear-gradient(180deg, #343236 0%, #38343F 100%);
+    border-radius: 100px;
+}
+
+.image-preview-wrapper {
+    display: flex;
+    gap: 50px;
+
+    .image-preview img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .repoart-summary {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        span {
+            font-size: 25px;
+            font-weight: 700;
+            color: #AAB4D0;
+        }
+
+        .file-name {
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
+
+.dental-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.patient-details {
+    box-shadow: 0px 2px 2px 0px #FFFFFF40 inset;
+    border-radius: 10px;
+    margin-top: 1%;
+    color: white;
+    padding: 1% 2%;
+
+    span {
+        font-size: 20px;
+        font-weight: 700;
+        color: #33D9D4;
+        padding-right: 2%;
+        border-right: 1px solid #565D6D;
+    }
+}
+
+.details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:1%;
+
+    span {
+        padding: 0;
+        border: none;
+        color: #AAB4D0; 
+        font-weight: 500;
+        span {
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 0;
+            border: none;
+        }
+    }
+}
+
+.dental-body{
+    width: 100%;
+    gap: 1%;
+    margin-top: 1%;
+
+    display: flex;
+}
+
+$background-color: #1d1d1d;
+$container-background: #2b2b2b;
+$header-background: #202020;
+$border-color: #3e3e3e;
+$highlight-color: #e74c3c;
+$text-color: white;
+
+
+
+  .record-header {
+    display: flex;
+    gap: 10px;
+    p {
+      margin: 0;
+      color: white;
+    }
+
+    .highlight {
+      color: $highlight-color;
+    }
+
+    .close-button {
+      align-self: center;
+    }
+  }
+
+  .record-body {
+    padding: 16px;
+    text-align: center;
+
+    img {
+      width: 100%;
+      max-width: 200px;
+      border-radius: 4px;
+    }
+  }
